@@ -1,7 +1,7 @@
 const projectData = [
     {
         name: 'Exercise Tracker',
-        imgLink: '',
+        imgLink: '../images/exercise.png',
         desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
         skills: [
             {
@@ -30,7 +30,7 @@ const projectData = [
     },
     {
         name: 'Timestamp Microservice',
-        imgLink: '',
+        imgLink: '../images/timestamp.png',
         desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
         skills: [
             {
@@ -55,7 +55,7 @@ const projectData = [
     },
     {
         name: 'Rolling Dices',
-        imgLink: '',
+        imgLink: '../images/tenzies.png',
         desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
         skills: [
             {
@@ -72,7 +72,7 @@ const projectData = [
     },
     {
         name: 'Meme Generator',
-        imgLink: '',
+        imgLink: 'meme.png',
         desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
         skills: [
             {
