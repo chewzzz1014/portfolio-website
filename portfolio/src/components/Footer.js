@@ -5,12 +5,12 @@ export default function Footer() {
     return (
         <footer>
             <div className='footer-icons'>
-                <a href="#"><AiFillMail size='3em' /></a>
-                <a href="#"><AiFillLinkedin size='3em' /></a>
-                <a href="#"><AiFillGithub size='3em' /></a>
+                <a href="#"><AiFillMail size='2.5em' color='black' /></a>
+                <a href="#"><AiFillLinkedin size='2.5em' color='black' /></a>
+                <a href="#"><AiFillGithub size='2.5em' color='black' /></a>
             </div>
             <div>
-                <p>&copy; Zi Qing Chew </p>
+                <p>&copy; Zi Qing Chew, 2022 </p>
             </div>
         </footer>
     )

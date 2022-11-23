@@ -32,14 +32,14 @@ export default function Info() {
                 </div>
 
                 <div className='info-right'>
-                    <div className='info-text'>
+                    <div className='info-text px-md-5'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. At mollitia, natus quae distinctio error porro, dolore quibusdam aliquam qui, voluptatibus laborum libero in quod nisi tempora repellat alias sint magni!
 
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet soluta accusantium consequatur officia qui molestias, quam culpa quaerat earum voluptatem id harum suscipit doloribus eaque, aperiam asperiores provident voluptate numquam.
                     </div>
 
                     <div className=''>
-                        <button className='resume-btn'><AiOutlineDownload size='2em' /> Download Resume</button>
+                        <button className='resume-btn' style={{ color: 'white' }}><AiOutlineDownload size='2em' /> Download Resume</button>
                     </div>
                 </div>
             </div>
