@@ -8,7 +8,27 @@ export default function Info() {
             <div className='info'>
 
                 <div className='info-left'>
-                    <img src={name} alt="" className='img-fluid info-img' />
+                    <div className='info-name'>
+                        <span>ZI</span>
+                        <span className='slash'>/</span>
+                        <span>QING</span>
+                        <span className='slash'>/</span>
+                        <span>CHEW</span>
+                    </div>
+                    <div className='info-name'>
+                        <span>ZI</span>
+                        <span className='slash'>/</span>
+                        <span>QING</span>
+                        <span className='slash'>/</span>
+                        <span>CHEW</span>
+                    </div>
+                    <div className='info-name'>
+                        <span>ZI</span>
+                        <span className='slash'>/</span>
+                        <span>QING</span>
+                        <span className='slash'>/</span>
+                        <span>CHEW</span>
+                    </div>
                 </div>
 
                 <div className='info-right'>

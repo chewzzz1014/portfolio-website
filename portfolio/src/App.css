@@ -11,7 +11,7 @@ nav {
 
 .navbar-nav {
   text-align: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .nav-link {
@@ -26,7 +26,7 @@ nav {
 }
 
 .info {
-  background-color: #B2A6FB;
+  /* background-color: #B2A6FB; */
   padding: 2em;
   padding-top: 0px;
   display: flex;
@@ -34,14 +34,36 @@ nav {
   align-items: center;
 }
 
-.info-left {
-  height: 30%;
-  width: auto;
+span {
+  display: block;
+}
+
+.info-name {
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  color: #004aad;
+  text-shadow: 8px 8px rgba(255, 87, 87, 0.4);
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-name:nth-child(-n+2) {
+  display: none;
+}
+
+.slash {
+  display: none;
 }
 
 .info-right {
-  margin-top: -30px;
+  margin-top: 10px;
   text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .resume-btn {
@@ -53,7 +75,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 3px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 
@@ -98,7 +120,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   gap: 1em;
 }
 
@@ -202,6 +224,7 @@ footer {
 
   .skills {
     padding: 3em 5em;
+    padding-top: 0px;
     gap: 2em;
   }
 
@@ -219,7 +242,7 @@ footer {
   }
 
   .projects-skills {
-    margin: 1em 0em;
+    /* margin: 1em 0em; */
     justify-content: flex-start;
   }
 
@@ -232,25 +255,60 @@ footer {
   }
 
   .info {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
+
+    background-image: url('./images/info-bg.jpg');
+    background-position: center;
+  }
+
+  .info-name {
+    text-shadow: 5px 5px rgba(255, 87, 87, 1);
+    /* color: red; */
+    /* border: 1px solid red; */
+    font-size: 7em;
+    width: 70%;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    position: relative;
+  }
+
+  .info-name:nth-child(-n+2) {
+    display: flex;
+  }
+
+  .slash {
+    display: inline;
+    color: red;
   }
 
   .info-left {
-    border: 1px solid red;
-    /* width: 70%;
-    height: auto; */
-    flex: 5 0 2;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
+  /* .info-left::before {
+    content: "";
+    background-image: url('./images/info-bg.jpg');
+    background-size: cover;
+    position: absolute;
+    opacity: 0.5;
+  } */
+
   .info-right {
-    width: 100px;
-    height: auto;
-    display: inline-flex;
-    border: 1px solid red;
+    padding: 0em 3em;
+    /* border: 1px solid red; */
     margin-top: 0px;
-    flex: 1 2 0;
+    /* flex-shrink: 1; */
     flex-wrap: wrap;
+    gap: 1.5em;
+    margin-bottom: 1em;
   }
 }
