@@ -5,7 +5,7 @@ import name from '../images/name.png'
 export default function Info() {
     return (
         <>
-            <div className='info'>
+            <div className='info' id='info'>
 
                 <div className='info-left'>
                     <div className='info-name'>

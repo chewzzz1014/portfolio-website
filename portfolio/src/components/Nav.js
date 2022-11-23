@@ -11,16 +11,16 @@ export default function Nav() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="#" style={{ color: 'white' }}>About</a>
+                        <a className="nav-link" href="#info" style={{ color: 'white' }}>About</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#" style={{ color: 'white' }}>Skills</a>
+                        <a className="nav-link" href="#skills" style={{ color: 'white' }}>Skills</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#" style={{ color: 'white' }}>Projects</a>
+                        <a className="nav-link" href="#projects" style={{ color: 'white' }}>Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#" style={{ color: 'white' }}>Contacts</a>
+                        <a className="nav-link" href="#footer" style={{ color: 'white' }}>Contacts</a>
                     </li>
                 </ul>
             </div>

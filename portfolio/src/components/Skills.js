@@ -72,7 +72,7 @@ export default function Skills() {
         </div>
     )
     return (
-        <div className='skills'>
+        <div className='skills' id='skills'>
 
             {skillElements}
         </div>

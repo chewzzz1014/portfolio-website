@@ -3,11 +3,11 @@ import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai'
 
 export default function Footer() {
     return (
-        <footer>
+        <footer id='footer'>
             <div className='footer-icons'>
-                <a href="#"><AiFillMail size='2.5em' color='black' /></a>
-                <a href="#"><AiFillLinkedin size='2.5em' color='black' /></a>
-                <a href="#"><AiFillGithub size='2.5em' color='black' /></a>
+                <a href="mailto:chewziqing@gmail.com" target='__blank'><AiFillMail size='2.5em' color='black' /></a>
+                <a href="https://www.linkedin.com/in/ziqingchew" target="_blank" ><AiFillLinkedin size='2.5em' color='black' /></a>
+                <a href="https://github.com/chewzzz1014" target='__blank'><AiFillGithub size='2.5em' color='black' /></a>
             </div>
             <div>
                 <p>&copy; Zi Qing Chew, 2022 </p>
