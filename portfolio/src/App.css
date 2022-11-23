@@ -6,34 +6,56 @@ body {
 }
 
 nav {
-  position: fixed;
+  background-color: white;
 }
 
 .navbar-nav {
   text-align: center;
+  border: 1px solid red;
 }
 
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
+.nav-link {
   text-decoration: none;
   color: black;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: red;
   font-weight: bold;
 }
 
 .info {
   background-color: #B2A6FB;
   padding: 2em;
+  padding-top: 0px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.info-text {
+.info-left {
+  height: 30%;
+  width: auto;
+}
+
+.info-right {
+  margin-top: -30px;
   text-align: justify;
 }
+
+.resume-btn {
+  align-self: center;
+  margin-top: 2em;
+  border: none;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  border: 1px solid red;
+}
+
 
 .skills {
   /* background-color: #C4F4EB; */
@@ -89,8 +111,22 @@ a:hover {
 }
 
 .view-all-projects {
+  /* background-color: #B2A6FB; */
+  /* font-family: 'Courier New', Courier, monospace; */
   text-align: center;
+  font-size: 3em;
+  color: black;
+  font-weight: 900;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+  margin: 1em 0em;
 }
+
+.view-all-projects:hover {
+  text-decoration: none;
+}
+
 
 .project-item>img {
   border: none;
@@ -136,6 +172,16 @@ small:hover {
   gap: 5px;
 }
 
+footer {
+  background-color: aqua;
+  margin: auto;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .img-right {
     box-shadow: 12px 20px 20px 1px rgba(0, 0, 0, 1);
@@ -175,5 +221,36 @@ small:hover {
   .projects-skills {
     margin: 1em 0em;
     justify-content: flex-start;
+  }
+
+  .resume-btn {
+    margin-top: 0px;
+  }
+
+  .navbar {
+    background-color: transparent;
+  }
+
+  .info {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-left {
+    border: 1px solid red;
+    /* width: 70%;
+    height: auto; */
+    flex: 5 0 2;
+  }
+
+  .info-right {
+    width: 100px;
+    height: auto;
+    display: inline-flex;
+    border: 1px solid red;
+    margin-top: 0px;
+    flex: 1 2 0;
+    flex-wrap: wrap;
   }
 }

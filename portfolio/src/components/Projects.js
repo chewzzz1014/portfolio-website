@@ -45,7 +45,9 @@ export default function Projects() {
                 </div>
             </div>
 
-            <a href='#' className='view-all-projects'>View All Projects</a>
+            <div className='row'>
+                <a href='#' className='view-all-projects col-12'>View All Projects</a>
+            </div>
         </div>
     )
 }
