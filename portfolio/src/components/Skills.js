@@ -68,7 +68,7 @@ export default function Skills() {
     const skillElements = skills.map(ele =>
         <div className='skill'>
             <img src={ele.imgLink} className='up-when-hover' />
-            <small>{ele.name}</small>
+            <small><b>{ele.name}</b></small>
         </div>
     )
     return (
