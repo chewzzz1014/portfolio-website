@@ -1,6 +1,11 @@
 import React from 'react'
 
 export default function Nav() {
+
+    const whiteText = {
+        color: 'white'
+    }
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light navbar-default  position-sticky fixed-top">
             <a className="navbar-brand" href="#"><img src='https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/nyan_cat.png' alt="" className='nyan_cat' /></a>
@@ -10,16 +15,16 @@ export default function Nav() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="#info" style={{ color: 'white' }}>About</a>
+                        <a className="nav-link" href="#info" style={whiteText}>About</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#skills" style={{ color: 'white' }}>Skills</a>
+                        <a className="nav-link" href="#skills" style={whiteText}>Skills</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#projects" style={{ color: 'white' }}>Projects</a>
+                        <a className="nav-link" href="#projects" style={whiteText}>Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#footer" style={{ color: 'white' }}>Contacts</a>
+                        <a className="nav-link" href="#footer" style={whiteText}>Contacts</a>
                     </li>
                 </ul>
             </div>
