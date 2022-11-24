@@ -252,12 +252,18 @@ small:hover {
 }
 
 footer {
-  height: 80px;
-  background-color: #ffc107;
-  margin-top: -5px;
-  /* position: fixed; */
-  width: 100%;
+  background-color: #343E3D;
   text-align: center;
+  padding: 1.5em;
+  padding-bottom: 1em;
+
+  color: white;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
 }
 
 .nyan_cat {

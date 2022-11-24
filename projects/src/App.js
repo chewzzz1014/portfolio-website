@@ -85,23 +85,23 @@ function App() {
 
 
   return (
-    <div>
-      <Shake
-        h={1}
-        v={3}
-        r={3}
-        dur={800}
-        int={10}
-        max={100}
-        fixed={true}
-        fixedStop={false}
-        freez={true}>
-        <a href="#"><img src='https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/nyan_cat.png' alt="" className='nyan_cat' /></a>
-      </Shake>
-
-
-      <Logo />
-      {dataElements}
+    <div className='App'>
+      <div>
+        <Shake
+          h={1}
+          v={3}
+          r={3}
+          dur={800}
+          int={10}
+          max={100}
+          fixed={true}
+          fixedStop={false}
+          freez={true}>
+          <a href="#"><img src='https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/nyan_cat.png' alt="" className='nyan_cat' /></a>
+        </Shake>
+        <Logo />
+        {dataElements}
+      </div>
       <Footer />
     </div>
   );
