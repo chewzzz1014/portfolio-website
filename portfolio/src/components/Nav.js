@@ -10,8 +10,8 @@ export default function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light navbar-default  position-sticky fixed-top">
             <Shake
-                h={1}
-                v={3}
+                h={10}
+                v={10}
                 r={3}
                 dur={800}
                 int={10}
