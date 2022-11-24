@@ -92,10 +92,10 @@ footer {
 .nyan_cat {
   height: 50px;
   width: auto;
-  top: 0;
+  top: 5px;
   left: 5px;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media screen and (min-width: 768px) {
