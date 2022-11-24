@@ -3,6 +3,7 @@ import { AiOutlineDownload } from 'react-icons/ai'
 import axios from 'axios'
 import fileDownload from 'js-file-download'
 import resume from '../data/resume'
+import infoText from '../data/info-text'
 
 export default function Info() {
 
@@ -43,9 +44,7 @@ export default function Info() {
 
                 <div className='info-right'>
                     <div className='info-text px-md-5'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At mollitia, natus quae distinctio error porro, dolore quibusdam aliquam qui, voluptatibus laborum libero in quod nisi tempora repellat alias sint magni!
-
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet soluta accusantium consequatur officia qui molestias, quam culpa quaerat earum voluptatem id harum suscipit doloribus eaque, aperiam asperiores provident voluptate numquam.
+                        {infoText}
                     </div>
 
                     <div className=''>

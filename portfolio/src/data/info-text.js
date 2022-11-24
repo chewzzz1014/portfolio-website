@@ -1,0 +1,3 @@
+const infoText = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At mollitia, natus quae distinctio error porro, dolore quibusdam aliquam qui, voluptatibus laborum libero in quod nisi tempora repellat alias sint magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.Eveniet soluta accusantium consequatur officia qui molestias, quam culpa quaerat earum voluptatem id harum suscipit doloribus eaque, aperiam asperiores provident voluptate numquam."
+
+export default infoText
