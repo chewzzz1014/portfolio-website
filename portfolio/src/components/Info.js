@@ -1,8 +1,18 @@
 import React from 'react'
 import { AiOutlineDownload } from 'react-icons/ai'
-import name from '../images/name.png'
+import axios from 'axios'
+import fileDownload from 'js-file-download'
+import resume from '../data/resume'
 
 export default function Info() {
+
+    const handleDownload = (url, filename) => {
+        axios.get(url, { responseType: 'blob' })
+            .then((res) => {
+                fileDownload(res.data, filename)
+            })
+    }
+
     return (
         <>
             <div className='info' id='info'>
@@ -39,7 +49,14 @@ export default function Info() {
                     </div>
 
                     <div className=''>
-                        <button className='resume-btn' style={{ color: 'white' }}><AiOutlineDownload size='2em' /> Download Resume</button>
+                        <button
+                            className='resume-btn'
+                            style={{ color: 'white' }}
+                            onClick={() => {
+                                handleDownload(resume.url, resume.fileName)
+                            }}
+                        >
+                            <AiOutlineDownload size='2em' /> Download Resume</button>
                     </div>
                 </div>
             </div>

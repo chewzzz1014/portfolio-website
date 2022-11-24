@@ -28,13 +28,9 @@ nav {
   color: white;
 }
 
-.nav-item {
-  border: 1px solid white;
-  background-color: grey;
-}
-
-.nav-link a {
+.nav-link {
   text-decoration: none;
+  color: aqua;
 }
 
 .nav-link:hover {
@@ -404,12 +400,20 @@ footer {
   }
 }
 
-
-@media screen and (min-width: 768px) and (max-width:1154px) {
+@media screen and (min-width: 768px) and (max-width:995px) {
 
   .info-left {
     margin: 0;
     padding: 0;
-    font-size: 0.5em;
+  }
+
+  .info-name {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 995px) and (max-width:1268px) {
+  .info-name {
+    font-size: 5em;
   }
 }
