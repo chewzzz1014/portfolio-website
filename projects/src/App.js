@@ -4,7 +4,6 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
@@ -14,44 +13,63 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 
 import projectData from './data/projects'
+import Logo from './components/logo';
+import { BsArrowUpRight } from 'react-icons/bs';
+import { MdOutlineExpandMore } from 'react-icons/md';
+
+const buttonStyle = {
+  border: 'none',
+  padding: '0.5em 1em',
+  backgroundColor: 'white',
+  color: 'black',
+  borderRadius: '0.5em',
+}
+
+const accordionBarStyle = {
+  backgroundColor: '#242424',
+  border: '1px solid white',
+  margin: '2em 0em',
+  // boxShadow: '10px 15px 20px 0.5px rgba(255, 255, 255, 1)'
+}
+
 
 function App() {
 
   const dataElements = projectData.map((ele) => {
     return (
-      <Accordion>
+      <Accordion sx={accordionBarStyle}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<MdOutlineExpandMore color='white' size='40px' />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>{ele.name}</Typography>
+          <Typography color='white'>{ele.name}</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ backgroundColor: '#242424' }}>
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
               {ele.project.map((p) => {
                 return (
                   <Grid item xs={12} sm={6} md={3}>
                     {/* <Item> */}
-                    <Card sx={{ maxWidth: 345, backgroundColor: 'black' }}>
+                    <Card sx={{ maxWidth: 345 }} >
                       <CardMedia
                         component="img"
                         height="140"
                         image={p.imgLink}
                         alt="green iguana"
                       />
-                      <CardContent sx={{ backgroundColor: 'black' }}>
-                        <Typography gutterBottom variant="h5" component="div" color='white'>
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
                           {p.name}
                         </Typography>
-                        <Typography variant="body2" color='white'>
+                        <Typography variant="body2" color='black'>
                           {p.desc}
                         </Typography>
                       </CardContent>
                       <CardActions>
-                        <Button size="small">Source Code</Button>
-                        <Button size="small">Live Site</Button>
+                        <Button size="small" sx={buttonStyle}><a href={p.srcLink} target='_blank'>Source Code<BsArrowUpRight /></a></Button>
+                        <Button size="small" sx={buttonStyle}><a href={p.pageLink} target='_blank' >Live Site <BsArrowUpRight /></a></Button>
                       </CardActions>
                     </Card>
                     {/* </Item> */}
@@ -68,7 +86,7 @@ function App() {
 
   return (
     <div>
-
+      <Logo />
       {dataElements}
 
     </div>
