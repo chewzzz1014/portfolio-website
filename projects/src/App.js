@@ -17,6 +17,7 @@ import Logo from './components/logo';
 import Footer from './components/Footer';
 import { BsArrowUpRight } from 'react-icons/bs';
 import { MdOutlineExpandMore } from 'react-icons/md';
+import { Shake } from 'reshake'
 
 const buttonStyle = {
   border: 'none',
@@ -85,7 +86,20 @@ function App() {
 
   return (
     <div>
-      <a className="navbar-brand" href="#"><img src='https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/nyan_cat.png' alt="" className='nyan_cat' /></a>
+      <Shake
+        h={1}
+        v={3}
+        r={3}
+        dur={800}
+        int={10}
+        max={100}
+        fixed={true}
+        fixedStop={false}
+        freez={true}>
+        <a href="#"><img src='https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/nyan_cat.png' alt="" className='nyan_cat' /></a>
+      </Shake>
+
+
       <Logo />
       {dataElements}
       <Footer />

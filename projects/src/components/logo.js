@@ -9,7 +9,7 @@ export default function Logo() {
                 <span>CHEW</span>
             </div>
             <div className='logo-title'>
-                <span><span className='slash'>/</span>PROJECT<span className='slash'>/</span></span>
+                <span><span className='slash'>/</span>PROJECTS<span className='slash'>/</span></span>
             </div>
         </div>
     )
