@@ -8,15 +8,17 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className='main'>
-      <div>
-        <Nav />
-        <Info />
-        <Skills />
-        <Projects />
+    <>
+      <Nav />
+      <div className='main'>
+        <div>
+          <Info />
+          <Skills />
+          <Projects />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
 

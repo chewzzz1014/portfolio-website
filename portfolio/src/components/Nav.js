@@ -8,7 +8,7 @@ export default function Nav() {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light navbar-default  position-sticky fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light navbar-default  position-sticky sticky-top">
             <Shake
                 h={10}
                 v={10}
@@ -19,9 +19,9 @@ export default function Nav() {
                 fixed={true}
                 fixedStop={false}
                 freez={true}>
-                <a className="navbar-brand" href="#"><img src='https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/nyan_cat.png' alt="" className='nyan_cat' /></a>
+                <a className="navbar-brand" href="#"><img src='https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/nyan_cat.png' alt="" className='nyan_cat position-sticky sticky-top' /></a>
             </Shake>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ border: '1px solid white', backgroundColor: 'white' }}>
+            <button className="navbar-toggler  position-sticky sticky-top" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ border: '1px solid white', backgroundColor: 'white' }}>
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
