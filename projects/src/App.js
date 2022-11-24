@@ -14,6 +14,7 @@ import Button from '@mui/material/Button';
 
 import projectData from './data/projects'
 import Logo from './components/logo';
+import Footer from './components/Footer';
 import { BsArrowUpRight } from 'react-icons/bs';
 import { MdOutlineExpandMore } from 'react-icons/md';
 
@@ -51,7 +52,6 @@ function App() {
               {ele.project.map((p) => {
                 return (
                   <Grid item xs={12} sm={6} md={3}>
-                    {/* <Item> */}
                     <Card sx={{ maxWidth: 345 }} >
                       <CardMedia
                         component="img"
@@ -72,7 +72,6 @@ function App() {
                         <Button size="small" sx={buttonStyle}><a href={p.pageLink} target='_blank' >Live Site <BsArrowUpRight /></a></Button>
                       </CardActions>
                     </Card>
-                    {/* </Item> */}
                   </Grid>
                 )
               })}
@@ -86,10 +85,10 @@ function App() {
 
   return (
     <div>
+      <a className="navbar-brand" href="#"><img src='https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/nyan_cat.png' alt="" className='nyan_cat' /></a>
       <Logo />
       {dataElements}
-
-
+      <Footer />
     </div>
   );
 

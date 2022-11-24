@@ -20,24 +20,18 @@ export default function Info() {
 
                 <div className='info-left'>
                     <div className='info-name'>
-                        <span>ZI</span>
-                        <span className='slash'>/</span>
-                        <span>QING</span>
-                        <span className='slash'>/</span>
+                        <span>ZI<span className='slash'>/</span></span>
+                        <span>QING<span className='slash'>/</span></span>
                         <span>CHEW</span>
                     </div>
                     <div className='info-name'>
-                        <span>ZI</span>
-                        <span className='slash'>/</span>
-                        <span>QING</span>
-                        <span className='slash'>/</span>
+                        <span>ZI<span className='slash'>/</span></span>
+                        <span>QING<span className='slash'>/</span></span>
                         <span>CHEW</span>
                     </div>
                     <div className='info-name'>
-                        <span>ZI</span>
-                        <span className='slash'>/</span>
-                        <span>QING</span>
-                        <span className='slash'>/</span>
+                        <span>ZI<span className='slash'>/</span></span>
+                        <span>QING<span className='slash'>/</span></span>
                         <span>CHEW</span>
                     </div>
                 </div>
