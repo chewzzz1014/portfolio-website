@@ -9,7 +9,7 @@ export default function Projects() {
 
         const skillElements = ele.skills.map(s => {
             return (
-                <img src={s.imgLink} alt={ele.name} className='projects-skill' id={nanoid()} />
+                <img src={s.imgLink} alt={ele.name} className='projects-skill' style={{ width: '2em', height: '2em' }} id={nanoid()} />
             )
         })
 
