@@ -42,7 +42,7 @@ export default function Projects() {
             {projectElements}
 
             <div className='row'>
-                <a href='#' className='view-all-projects col-12'>View All Projects</a>
+                <a href='https://chewzzz1014.github.io/portfolio-website-projects-page/' className='view-all-projects col-12'>View All Projects</a>
                 <p className='col-12 view-all-projects-bg'>
                     ///////////////////////////
                 </p>
