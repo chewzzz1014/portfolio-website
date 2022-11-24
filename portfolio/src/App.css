@@ -6,6 +6,11 @@ body {
   background-color: #242424;
 }
 
+button:focus {
+  border: none;
+  outline: none;
+}
+
 a {
   color: white;
 }
