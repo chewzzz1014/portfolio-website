@@ -1,7 +1,7 @@
 const projectData = [
     {
         name: 'Exercise Tracker',
-        imgLink: '../images/exercise.png',
+        imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/exercies.png',
         desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
         skills: [
             {
@@ -30,7 +30,7 @@ const projectData = [
     },
     {
         name: 'Timestamp Microservice',
-        imgLink: '../images/timestamp.png',
+        imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file@c0911ca708af3a2d2fdd7515b49224cc9d2274e1/portfolio-imgs/timestamp.png',
         desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
         skills: [
             {
@@ -55,7 +55,7 @@ const projectData = [
     },
     {
         name: 'Rolling Dices',
-        imgLink: '../images/tenzies.png',
+        imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/tenzies.png',
         desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
         skills: [
             {
@@ -72,7 +72,7 @@ const projectData = [
     },
     {
         name: 'Meme Generator',
-        imgLink: 'meme.png',
+        imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/meme.png',
         desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
         skills: [
             {

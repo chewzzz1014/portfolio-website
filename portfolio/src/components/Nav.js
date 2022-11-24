@@ -1,10 +1,9 @@
 import React from 'react'
-import nyan_cat from '../images/nyan_cat.png'
 
 export default function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light navbar-default  position-sticky fixed-top">
-            <a className="navbar-brand" href="#"><img src={nyan_cat} alt="" className='nyan_cat' /></a>
+            <a className="navbar-brand" href="#"><img src='https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/nyan_cat.png' alt="" className='nyan_cat' /></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ border: '1px solid white', backgroundColor: 'white' }}>
                 <span className="navbar-toggler-icon"></span>
             </button>
