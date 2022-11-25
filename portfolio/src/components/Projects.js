@@ -16,7 +16,7 @@ export default function Projects() {
         const isEven = (idx + 1) % 2 === 0
 
         return (
-            <div className='project-item row align-items-center mb-5 mt-md-5 mx-3 mx-md-0' id={nanoid()}>
+            <div className='project-item row align-items-center mb-5 mt-md-5 mx-0 mx-md-0' id={nanoid()}>
                 <img src={ele.imgLink} alt={ele.name} className={`col-md-5 img-fluid up-when-hover 
                         ${(isEven) ? 'img-right order-1 order-md-2' : 'img-left'}`}
                 />
