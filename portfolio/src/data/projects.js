@@ -68,7 +68,7 @@ const projectData = [
             }
         ],
         srcLink: 'https://github.com/chewzzz1014/JS-Frameworks-Projects/tree/master/tenzies-game',
-        pageLink: 'https://Tenzies-Game.chewzi1.repl.co'
+        pageLink: 'https://chewzzz-rolling-dice.netlify.app/'
     },
     {
         name: 'Meme Generator',
@@ -85,7 +85,7 @@ const projectData = [
             }
         ],
         srcLink: 'https://github.com/chewzzz1014/JS-Frameworks-Projects/tree/master/meme-generator',
-        pageLink: 'https://meme-generator.chewzi1.repl.co/'
+        pageLink: 'https://chewzzz-meme-generator.netlify.app/'
     },
 ]
 export default projectData
