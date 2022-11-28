@@ -1,6 +1,6 @@
 # Overview
 
-- Using React and MUI to build my [portfolio website](https://chewzzz1014.github.io/portfolio-website/) :stuck_out_tongue_closed_eyes:
+- Using React and MUI to build my [portfolio website](https://chewzzz1014.github.io/portfolio-website/) hosted on github pages. :stuck_out_tongue_closed_eyes:
 - The main page only consists of few of my projects. To view all projects that I've built, refer [here](https://chewzzz1014.github.io/portfolio-website-projects-page/).
 - Source code for `projects` page also available in [portfolio-website-projects-page](https://github.com/chewzzz1014/portfolio-website-projects-page/tree/master) repository for deployment.
 - End result:
