@@ -377,8 +377,6 @@ footer {
   .info-name {
     color: #004aad;
     text-shadow: 5px 5px rgba(255, 87, 87, 1);
-    /* color: red; */
-    /* border: 1px solid red; */
     font-size: 7em;
     width: 70%;
     padding: 0;
@@ -395,6 +393,8 @@ footer {
   .slash {
     display: inline;
     color: red;
+    text-shadow: 5px 5px #f0f3f3;
+    opacity: 0.8;
   }
 
   .info-left {
