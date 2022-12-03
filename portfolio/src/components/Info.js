@@ -41,7 +41,7 @@ export default function Info() {
                         {infoText}
                     </div>
 
-                    <div className=''>
+                    <div id='resume'>
                         <button
                             className='resume-btn'
                             style={{ color: 'white' }}

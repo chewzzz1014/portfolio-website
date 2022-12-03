@@ -30,6 +30,9 @@ export default function Nav() {
                         <a className="nav-link" href="#info" style={whiteText}>About</a>
                     </li>
                     <li className="nav-item">
+                        <a className="nav-link" href="#resume" style={whiteText}>Resume</a>
+                    </li>
+                    <li className="nav-item">
                         <a className="nav-link" href="#skills" style={whiteText}>Skills</a>
                     </li>
                     <li className="nav-item">
