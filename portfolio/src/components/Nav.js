@@ -36,7 +36,7 @@ export default function Nav() {
                         <a className="nav-link" href="#projects" style={whiteText}>Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#footer" style={whiteText}>Contacts</a>
+                        <a className="nav-link" href="#contacts" style={whiteText}>Contacts</a>
                     </li>
                 </ul>
             </div>
