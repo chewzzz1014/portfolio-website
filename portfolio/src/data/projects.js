@@ -56,7 +56,7 @@ const projectData = [
     {
         name: 'Rolling Dices',
         imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/tenzies.png',
-        desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
+        desc: 'A simple dices rolling game. Rolling dices until all dices are of same digit.',
         skills: [
             {
                 name: 'React',
@@ -73,7 +73,7 @@ const projectData = [
     {
         name: 'Meme Generator',
         imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/meme.png',
-        desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
+        desc: 'A fun meme generator with customised caption.',
         skills: [
             {
                 name: 'React',
