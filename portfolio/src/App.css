@@ -43,10 +43,15 @@ nav {
   color: aqua;
 }
 
+.nav-item:hover {
+  color: red;
+}
+
 .nav-link:hover {
   text-decoration: none;
-  color: red;
-  font-weight: bold;
+  color: black;
+  background-color: #3A4F7A;
+  /* font-weight: bold; */
 }
 
 .info {
