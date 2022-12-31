@@ -30,7 +30,7 @@ const projectData = [
     },
     {
         name: 'Timestamp Microservice',
-        imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file@c0911ca708af3a2d2fdd7515b49224cc9d2274e1/portfolio-imgs/timestamp.png',
+        imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/project_timestamp.png',
         desc: 'A microservice that converts Unix Timestamp to Universal Time Coordinated (UTC)',
         skills: [
             {
