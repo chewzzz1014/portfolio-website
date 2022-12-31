@@ -2,7 +2,7 @@ const projectData = [
     {
         name: 'Exercise Tracker',
         imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file/portfolio-imgs/exercies.png',
-        desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
+        desc: 'A simple backend app for creating new user, adding exercises records and filter exercises log.',
         skills: [
             {
                 name: 'Node js',
@@ -31,7 +31,7 @@ const projectData = [
     {
         name: 'Timestamp Microservice',
         imgLink: 'https://cdn.jsdelivr.net/gh/chewzzz1014/file@c0911ca708af3a2d2fdd7515b49224cc9d2274e1/portfolio-imgs/timestamp.png',
-        desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatem minima ducimus explicabo, vero, sunt recusandae aspernatur fuga ratione, rerum quibusdam dicta est. Reprehenderit omnis delectus esse dicta cupiditate error.',
+        desc: 'A microservice that converts Unix Timestamp to Universal Time Coordinated (UTC)',
         skills: [
             {
                 name: 'Node js',
