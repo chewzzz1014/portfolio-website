@@ -9,14 +9,14 @@ export default function Projects() {
 
         const skillElements = ele.skills.map(s => {
             return (
-                <img src={s.imgLink} alt={ele.name} className='projects-skill' style={{ width: '2em', height: '2em' }} id={nanoid()} />
+                <img src={s.imgLink} key={nanoid()} alt={ele.name} className='projects-skill' style={{ width: '2em', height: '2em' }} />
             )
         })
 
         const isEven = (idx + 1) % 2 === 0
 
         return (
-            <div className='project-item row align-items-center mb-5 mt-md-5 mx-0 mx-md-0' id={nanoid()}>
+            <div className='project-item row align-items-center mb-5 mt-md-5 mx-0 mx-md-0' key={nanoid()}>
                 <img src={ele.imgLink} alt={ele.name} className={`col-md-5 img-fluid up-when-hover 
                         ${(isEven) ? 'img-right order-1 order-md-2' : 'img-left'}`}
                 />
@@ -24,7 +24,7 @@ export default function Projects() {
                     ${(isEven) ? 'order-2 order-md-1' : ''}`}>
                     <h2 className='project-title'>{ele.name}</h2>
                     <p>{ele.desc}</p>
-                    <div class='projects-skills'>
+                    <div className='projects-skills'>
                         {skillElements}
                     </div>
                     <div className='buttons'>

@@ -10,7 +10,7 @@ export default function Footer() {
                 <a href="https://github.com/chewzzz1014" target='__blank'><AiFillGithub size='2.5em' color='white' /></a>
             </div>
             <div>
-                <p>&copy; Zi Qing Chew, 2022 </p>
+                <p>&copy; Zi Qing Chew, {new Date(Date.now()).getFullYear()} </p>
             </div>
         </footer>
     )
