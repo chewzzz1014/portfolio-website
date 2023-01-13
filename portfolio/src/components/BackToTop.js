@@ -1,31 +1,28 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import ScrollTop from './ScrollTop';
 
+import Nav from './Nav'
+import Footer from './Footer'
+import Info from './Info'
+import Skills from './Skills'
+import Projects from './Projects';
+
 export default function BackToTop(props) {
     return (
         <React.Fragment>
-            <CssBaseline />
-            <Toolbar id="back-to-top-anchor" />
-            <Container>
-                <Box sx={{ my: 2 }}>
-                    {[...new Array(12)]
-                        .map(
-                            () => `Cras mattis consectetur purus sit amet fermentum.
-Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
-                        )
-                        .join('\n')}
-                </Box>
-            </Container>
+            <Nav />
+            <Toolbar id="back-to-top-anchor" style={{ 'minHeight': '5px', 'margin': '0px', 'padding': '0px' }} />
+            <div className='main'>
+                <div>
+                    <Info />
+                    <Skills />
+                    <Projects />
+                </div>
+                <Footer />
+            </div>
             <ScrollTop {...props}>
                 <Fab size="small" aria-label="scroll back to top">
                     <KeyboardArrowUpIcon />
