@@ -1,4 +1,4 @@
-import React, { useEffect, useState, componentDidMount } from 'react'
+import React from 'react'
 import { BsArrowUpRight } from 'react-icons/bs';
 import projectData from '../data/projects';
 import { nanoid } from 'nanoid'
@@ -28,8 +28,16 @@ export default function Projects() {
                         {skillElements}
                     </div>
                     <div className='buttons'>
-                        <button className='project-button'><a href={ele.srcLink} target='_blank'>Source Code <BsArrowUpRight /></a></button>
-                        <button className='project-button'><a href={ele.pageLink} target='_blank'>Live Site <BsArrowUpRight /></a></button>
+                        <button className='project-button'>
+                            <a href={ele.srcLink} target='_blank'>
+                                Source Code <BsArrowUpRight />
+                            </a>
+                        </button>
+                        <button className='project-button'>
+                            <a href={ele.pageLink} target='_blank'>
+                                Live Site <BsArrowUpRight />
+                            </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -42,7 +50,9 @@ export default function Projects() {
             {projectElements}
 
             <div className='row'>
-                <a href='https://chewzzz1014.github.io/portfolio-website-projects-page/' className='view-all-projects col-12'>View All Projects</a>
+                <a href='https://chewzzz1014.github.io/portfolio-website-projects-page/' className='view-all-projects col-12'>
+                    View All Projects
+                </a>
                 <p className='col-12 view-all-projects-bg'>
                     ///////////////////////////
                 </p>
