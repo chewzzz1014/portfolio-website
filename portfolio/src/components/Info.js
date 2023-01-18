@@ -1,18 +1,18 @@
 import React from 'react'
 import { AiOutlineDownload } from 'react-icons/ai'
 import axios from 'axios'
-import fileDownload from 'js-file-download'
-import resume from '../data/resume'
+// import fileDownload from 'js-file-download'
+// import resume from '../data/resume'
 import infoText from '../data/info-text'
 
 export default function Info() {
 
-    const handleDownload = (url, filename) => {
-        axios.get(url, { responseType: 'blob' })
-            .then((res) => {
-                fileDownload(res.data, filename)
-            })
-    }
+    //const handleDownload = async (url, filename) => {
+    // await axios.get(url, { responseType: 'blob' })
+    // .then((res) => {
+    //     fileDownload(res.data, filename)
+    // })
+    //}
 
     return (
         <>
@@ -45,11 +45,11 @@ export default function Info() {
                         <button
                             className='resume-btn'
                             style={{ color: 'white' }}
-                            onClick={() => {
-                                handleDownload(resume.url, resume.fileName)
-                            }}
+                        // onClick={() => {
+                        //     handleDownload(resume.url, resume.fileName)
+                        // }}
                         >
-                            <AiOutlineDownload size='2em' /> Download Resume</button>
+                            <AiOutlineDownload size='2em' /><a href='https://cdn.jsdelivr.net/gh/chewzzz1014/portfolio-website/portfolio/src/data/Zi_Qing_Chew_Resume.pdf' target='_blank'>Download Resume</a></button>
                     </div>
                 </div>
             </div>

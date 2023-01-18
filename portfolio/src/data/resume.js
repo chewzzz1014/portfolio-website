@@ -1,6 +1,6 @@
 const resume = {
-    url: 'https://cdn.jsdelivr.net/gh/chewzzz1014/UX-design-projects/online-course-website/javafxProject-wireframes.pdf',
-    fileName: 'zi_qing_chew_resume.pdf'
+    url: 'https://cdn.jsdelivr.net/gh/chewzzz1014/portfolio-website/portfolio/src/data/Zi_Qing_Chew_Resume.pdf',
+    fileName: 'Zi_Qing_Chew_Resume.pdf'
 }
 
 export default resume
