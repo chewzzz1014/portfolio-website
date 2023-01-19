@@ -20,6 +20,10 @@ const skills = [
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
     },
     {
+        name: 'TypeScript',
+        imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
+    },
+    {
         name: 'React',
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
     },
@@ -36,6 +40,10 @@ const skills = [
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
     },
     {
+        name: "Oracle SQL",
+        imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg'
+    },
+    {
         name: 'Git',
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
     },
@@ -44,16 +52,16 @@ const skills = [
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg'
     },
     {
+        name: 'Tailwind CSS',
+        imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
+    },
+    {
         name: 'Figma',
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
     },
     {
         name: 'Pandas',
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg'
-    },
-    {
-        name: 'Bash',
-        imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg'
     },
     {
         name: 'Markdown',
