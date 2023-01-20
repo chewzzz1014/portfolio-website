@@ -2,7 +2,7 @@ import React from 'react'
 import { AiOutlineDownload } from 'react-icons/ai'
 import axios from 'axios'
 // import fileDownload from 'js-file-download'
-// import resume from '../data/resume'
+import resume from '../data/resume'
 import infoText from '../data/info-text'
 
 export default function Info() {
@@ -49,7 +49,7 @@ export default function Info() {
                         //     handleDownload(resume.url, resume.fileName)
                         // }}
                         >
-                            <AiOutlineDownload size='2em' /><a href='https://cdn.jsdelivr.net/gh/chewzzz1014/portfolio-website/portfolio/src/data/Zi_Qing_Chew_Resume.pdf' target='_blank'>Download Resume</a></button>
+                            <AiOutlineDownload size='2em' /><a href={resume.url} target='_blank'>Download Resume</a></button>
                     </div>
                 </div>
             </div>

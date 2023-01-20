@@ -26,7 +26,7 @@ const projectData = [
             }
         ],
         srcLink: 'https://github.com/chewzzz1014/JS-Frameworks-Projects/tree/master/Exercise-Tracker',
-        pageLink: 'https://boilerplate-project-exercisetracker.chewzi1.repl.co/'
+        pageLink: 'https://exercise-tracker-express.onrender.com/'
     },
     {
         name: 'Timestamp Microservice',
