@@ -51,7 +51,7 @@ const projectData = [
             }
         ],
         srcLink: 'https://github.com/chewzzz1014/JS-Frameworks-Projects/tree/master/Timestamp-Microservice',
-        pageLink: 'https://boilerplate-project-timestamp.chewzi1.repl.co'
+        pageLink: 'https://timestamp-microservice-express.onrender.com/'
     },
     {
         name: 'Rolling Dices',
