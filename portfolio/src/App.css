@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background-color: #242424;
+  scroll-behavior: smooth;
 }
 
 button:focus {
@@ -62,7 +63,7 @@ nav {
   flex-direction: column;
   align-items: center;
   color: white;
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 10rem;
 }
 
 span {
