@@ -1,12 +1,12 @@
 // allow for always displaying the latest version of resume (same file name with diff commit id)
 
 const commits = [
-    '683f65045ea3c81811621e509ae5c705bdc421a4'
+    'caa0011e5d0ac5887c7ca3565f0ade9e799a9c4f'
 ]
 
 const resume = {
-    url: `https://cdn.jsdelivr.net/gh/chewzzz1014/portfolio-website@${commits[commits.length - 1]}/portfolio/src/data/resume/Zi_Qing_Chew_Resume.pdf`,
-    fileName: 'Zi_Qing_Chew_Resume.pdf'
+    url: `https://cdn.jsdelivr.net/gh/chewzzz1014/portfolio-website@${commits[commits.length - 1]}/portfolio/src/data/resume/ZiQingChew_Resume.pdf`,
+    fileName: 'ZiQingChew_Resume.pdf'
 }
 
 export default resume
