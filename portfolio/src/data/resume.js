@@ -1,7 +1,8 @@
 // allow for always displaying the latest version of resume (same file name with diff commit id)
 
 const commits = [
-    'caa0011e5d0ac5887c7ca3565f0ade9e799a9c4f'
+    'caa0011e5d0ac5887c7ca3565f0ade9e799a9c4f',
+    '957148a7335fa1fbc39653c61fefbfb6d6cfd674'
 ]
 
 const resume = {
