@@ -2,7 +2,8 @@
 
 const commits = [
     'caa0011e5d0ac5887c7ca3565f0ade9e799a9c4f',
-    '957148a7335fa1fbc39653c61fefbfb6d6cfd674'
+    '957148a7335fa1fbc39653c61fefbfb6d6cfd674',
+    '0ff3d72ceeba1f356e5c88871a784b3eb8b7965f '
 ]
 
 const resume = {
