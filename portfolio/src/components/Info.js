@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineDownload } from 'react-icons/ai'
-import axios from 'axios'
+// import axios from 'axios'
 // import fileDownload from 'js-file-download'
 import resume from '../data/resume'
 import infoText from '../data/info-text'
