@@ -4,6 +4,7 @@ import axios from 'axios'
 // import fileDownload from 'js-file-download'
 import resume from '../data/resume'
 import infoText from '../data/info-text'
+import { Shake } from 'reshake'
 
 export default function Info() {
 
@@ -49,7 +50,18 @@ export default function Info() {
                         //     handleDownload(resume.url, resume.fileName)
                         // }}
                         >
-                            <AiOutlineDownload size='2em' /><a href={resume.url} target='_blank' rel="noreferrer" style={{ color: 'black' }}>Download Resume</a></button>
+                            <Shake
+                                v={20}
+                                h={0}
+                                r={3}
+                                int={50}
+                                fixed={true}
+                                fixedStop={false}
+                                active={true}
+                            >
+                                <AiOutlineDownload size='2em' />
+                            </Shake>
+                            <a href={resume.url} target='_blank' rel="noreferrer" style={{ color: 'black' }}>Download Resume</a></button>
                     </div>
                 </div>
             </div>
