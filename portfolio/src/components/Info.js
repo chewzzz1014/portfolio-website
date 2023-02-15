@@ -44,12 +44,12 @@ export default function Info() {
                     <div id='resume'>
                         <button
                             className='resume-btn'
-                            style={{ color: 'white' }}
+                            style={{ color: 'black' }}
                         // onClick={() => {
                         //     handleDownload(resume.url, resume.fileName)
                         // }}
                         >
-                            <AiOutlineDownload size='2em' /><a href={resume.url} target='_blank' rel="noreferrer">Download Resume</a></button>
+                            <AiOutlineDownload size='2em' /><a href={resume.url} target='_blank' rel="noreferrer" style={{ color: 'black' }}>Download Resume</a></button>
                     </div>
                 </div>
             </div>
