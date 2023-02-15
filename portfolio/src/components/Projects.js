@@ -2,6 +2,7 @@ import React from 'react'
 import { BsArrowUpRight } from 'react-icons/bs';
 import projectData from '../data/projects';
 import { nanoid } from 'nanoid'
+import { Shake } from 'reshake'
 
 export default function Projects() {
 
@@ -51,9 +52,19 @@ export default function Projects() {
 
             <div className='row more-projects'>
                 <div>
-                    <a href='https://chewzzz1014.github.io/portfolio-website-projects-page/' className='view-all-projects col-12'>
-                        😎<span style={{ textDecoration: 'underline', display: 'inline' }}>View All Projects</span><BsArrowUpRight />
-                    </a>
+                    <Shake
+                        v={20}
+                        h={0}
+                        r={2}
+                        int={50}
+                        fixed={true}
+                        fixedStop={false}
+                        active={true}
+                    >
+                        <a href='https://chewzzz1014.github.io/portfolio-website-projects-page/' className='view-all-projects col-12'>
+                            😎<span style={{ textDecoration: 'underline', display: 'inline' }}>View All Projects</span><BsArrowUpRight />
+                        </a>
+                    </Shake>
                 </div>
             </div>
         </div>

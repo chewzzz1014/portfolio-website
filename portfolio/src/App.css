@@ -205,7 +205,7 @@ span {
 }
 
 .more-projects {
-  background-color: goldenrod;
+  background-color: rgb(175, 133, 27);
   display: flex;
   justify-content: center;
   align-items: center;
