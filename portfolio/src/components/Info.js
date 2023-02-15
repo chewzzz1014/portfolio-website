@@ -49,7 +49,7 @@ export default function Info() {
                         //     handleDownload(resume.url, resume.fileName)
                         // }}
                         >
-                            <AiOutlineDownload size='2em' /><a href={resume.url} target='_blank'>Download Resume</a></button>
+                            <AiOutlineDownload size='2em' /><a href={resume.url} target='_blank' rel="noreferrer">Download Resume</a></button>
                     </div>
                 </div>
             </div>
