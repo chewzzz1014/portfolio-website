@@ -30,12 +30,12 @@ export default function Projects() {
                     </div>
                     <div className='buttons'>
                         <button className='project-button'>
-                            <a href={ele.srcLink} target='_blank'>
+                            <a href={ele.srcLink} target='_blank' rel="noreferrer">
                                 Source Code <BsArrowUpRight />
                             </a>
                         </button>
                         <button className='project-button'>
-                            <a href={ele.pageLink} target='_blank'>
+                            <a href={ele.pageLink} target='_blank' rel="noreferrer">
                                 Live Site <BsArrowUpRight />
                             </a>
                         </button>
