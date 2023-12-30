@@ -24,15 +24,19 @@ const skills = [
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
     },
     {
-        name: 'React',
+        name: 'Reactjs',
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
     },
     {
-        name: 'Express',
+        name: 'Vuejs',
+        imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'
+    },
+    {
+        name: 'Expressjs',
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
     },
     {
-        name: 'Node js',
+        name: 'Nodejs',
         imgLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg'
     },
     {
